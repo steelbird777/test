@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="342dp"
+            android:layout_height="79dp" />
+
+        <TextView
+            android:id="@+id/registerno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Number;"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/registernoText"
+            android:layout_width="342dp"
+            android:layout_height="79dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department: "
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerDept"
+            android:layout_width="342dp"
+            android:layout_height="66dp" />
+
+        <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/insertBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/viewAllBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Exercise"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</RelativeLayout>
